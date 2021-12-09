@@ -1,17 +1,251 @@
 body{
   background-color: rgb(250, 242, 229);
 }
-h1{text-align: center;}
-h1 {
-  color: #557a95
+.hometext{text-align: center;}
+.hometext {
+  color: #87CEEB 
 }
-body{
-  font-family: Arial, Helvetica, sans-serif;
+.hometext {
+  font-family:'Archivo-Black';
 }
-h3{text-align: center;}
-h3{
+.aboutme {text-align: center;}
+.aboutme {
+color: #87CEEB;
+font-family: 'Archivo-Black';
+}
+.inspo {text-align: center;}
+.inspo {
+  color:#87CEEB;
+  font-family: 'Archivo-Black';
+}
+.desc{text-align: center;}
+.desc{
   color: #b1a296
 }
-h3 {
-  font-family: Georgia, 'Times New Roman', Times, serif
+.desc {
+  font-family: 'zenmaru';
+  padding-bottom: 6rem;
+  font-size: 1.5rem;
 }
+h2{
+color: #87CEEB 
+}
+h2 {
+  font-family: 'zenmaru';
+}
+@font-face {
+  font-family: 'Archivo-Black' ;
+  src: url('../fonts/archivoblack.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'zenmaru' ;
+  src: url('../fonts/zenmarugothic.woff2') format('woff2');
+}
+/*
+this is my header
+*/
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li{
+  display: inline-block;
+  font-size: .740rem;
+  padding: 1.25rem;
+  font-family: 'zenmaru';
+}
+/*
+these are my link colors
+*/
+a:link {
+  color:#645b54;
+}
+a:visited {
+  color:#b1a296;
+}
+a:hover {
+  color:#645b54;
+}
+/*
+this is my footer
+*/
+footer {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  padding: .4rem;
+  background-color:#b1a296;
+  color: #645b54;
+  font-size: .938rem;
+  font-family: 'zenmaru';
+}
+/*
+home page picture
+*/
+.portrait {
+border-radius: .625rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: .2s;
+} 
+/*
+about me picture
+*/
+.baby {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.a {
+color:#b1a296;
+line-height:2.3rem;
+font-family: 'zenmaru';
+text-align: left;
+padding: 1.25rem;
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+overflow: hidden;
+}
+/*
+inspo pictures
+*/
+.tsang {
+border-radius: .625rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: block;
+margin-left: auto;
+margin-right: auto;
+transition: .2s;
+padding-bottom: 1.875rem;
+background: #b1a296;
+}
+.center-bottom {text-align: center;}
+.center-bottom {
+  margin-top: -1.563rem;
+  font-family:'zenmaru';
+  color:#645b54;
+  padding-bottom: 2.5rem;
+}
+.takashi {
+  border-radius: .625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .2s;
+  padding-bottom: 1.875rem;
+  background: #b1a296;
+}
+.cb {text-align: center;}
+.cb {
+  margin-top: -1.563rem;
+  font-family: 'zenmaru';
+  color: #645b54;
+  padding-bottom: 2.5rem;
+}
+.feig {
+  border-radius: .625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .2s;
+  padding-bottom: 1.875rem;
+  background: #b1a296;
+}
+.cb2 {text-align: center;}
+.cb2 {
+margin-top: -1.563rem;
+font-family: 'zenmaru';
+color: #645b54;
+padding-bottom: 2.5rem;
+}
+/*
+new titles
+*/
+.portfolio {text-align: center}
+.portfolio {
+  color:#b1a296;
+  font-family: 'Archivo-Black';
+}
+.Resume {text-align: center;}
+.Resume {
+  color:#87CEEB;
+  font-family: 'Archivo-Black';
+}
+.email {text-align: center;}
+.stuff {
+font-size: 1.25rem;
+font-family: 'zenmaru';
+color: #645b54;
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+}
+.otherstuff {
+font-family: 'zenmaru';
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+color: #b1a296;
+padding-bottom: 1.25rem;
+line-height: 2.3rem;
+}
+.parasite {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.pp {text-align: center}
+.pp {
+  color:#b1a296;
+  line-height:2.3rem;
+  font-family: 'zenmaru';
+  text-align: left;
+  padding: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  overflow: hidden;
+}
+.flowers {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ff {
+  color:#b1a296;
+  line-height:2.3rem;
+  font-family: 'zenmaru';
+  text-align: left;
+  padding: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  overflow: hidden;
+}
+.doma {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tt {
+  color:#b1a296;
+  line-height:2.3rem;
+  font-family: 'zenmaru';
+  text-align: left;
+  padding: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  overflow: hidden;
+}
+  
